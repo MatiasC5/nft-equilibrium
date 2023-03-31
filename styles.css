@@ -18,12 +18,12 @@ body {
 .main-container {
     display: grid;
     background-color: hsl(216, 50%, 16%);
-    padding-top: 5px;
+    padding-top: 10px;
     place-items: center;
     border-radius: 15px;
     color: hsl(0, 0%, 100%);
-    width: 320px;
-    height: 510px;
+    width: 380px;
+    height: 620px;
     box-shadow: 0px 26px 9px 21px #0c1729;
 }
 
@@ -36,15 +36,16 @@ body {
 }
 
 #equilibrium-img {
-    width: 83%;
+    width: 85%;
     border-radius: 5px;
+    
 }
 
 
 
 #view {
     position: absolute;
-    width: 83%;
+    width: 85%;
     height: 100%;
     opacity: 0;
 }
@@ -63,12 +64,12 @@ body {
 
 #text {
     position: relative;
-    left: 28px;
-    top: -15px;
+    left: 30px;
+    top: -20px;
 }
 
 #title {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #title:hover {
@@ -80,6 +81,7 @@ body {
     color: hsl(215, 51%, 70%);
     margin-top: 20px;
     width: 90%;
+    font-size: 18px;
 }
 
 
@@ -89,6 +91,7 @@ body {
     width: 100%;
     position: relative;
     top: -20px;
+    font-size: 18px;
 }
 
 #ethereum-div {
@@ -130,7 +133,7 @@ body {
     background-color: hsl(215, 32%, 27%);
     height: 1px;
     position: relative;
-    top: -30px;
+    top: -20px;
 }
 
 #user-div {
@@ -141,13 +144,13 @@ body {
     justify-content: flex-start;
     position: relative;
     left: 28px;
-    top: -20px;
+    top: -15px;
     margin-top: -30px;
-    font-size: 15px;
+    font-size:16px;
 }
 
 #user-avatar {
-    width: 20px;
+    width: 26px;
     border: 2px solid white;
     border-radius: 50%;
     margin-right: 15px;
@@ -189,9 +192,9 @@ body {
         place-items: center;
         position: relative;
         left: 45px;
-        top: 90px;
-        width: 400px;
-        height: 630px;
+        top: 70px;
+        width: 420px;
+        height: 690px;
     }
 
     .attribution {
@@ -204,15 +207,15 @@ body {
 
     #title {
         position: relative;
-        left: 10px;
-        font-size: 25px
+        left: 3px;
+        font-size: 30px
     }
 
     #first-paragraph {
-        font-size: 20px;
+        font-size: 22px;
         position: relative;
         width: 85%;
-        left: 10px;
+        left: 3px;
         right: 10px;
         
     }
@@ -242,13 +245,13 @@ body {
 
     #user-div {
     
-        font-size: 18px;
+        font-size: 20px;
         left: 35px;
         top: -30px;
     }
 
     #user-avatar {
-        width: 25px;
+        width: 30px;
     }
     
 }
